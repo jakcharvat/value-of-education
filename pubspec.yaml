@@ -1,0 +1,27 @@
+name: value_of_education
+description: A project exploring the value of education for immigrant families - A case study of Arthur Miller's A View from the Bridge
+
+version: 2.0.0
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.2
+  fl_chart: ^0.6.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/bad_school.jpg
+    - assets/accounting.jpg
+    - assets/argument.png
+
+
+
